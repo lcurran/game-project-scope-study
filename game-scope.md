@@ -6,6 +6,7 @@
 
 ## Data structure
 
+```javascript
 grid {
   rowA: [],
   rowB: [],
@@ -16,6 +17,7 @@ grid {
   diagonalX: [],
   diagonalY: []
 }
+```
 
 Increment for X, decrement for O. When abs(sum) = grid dimension, if positive
 player X wins, if negative player O wins.
